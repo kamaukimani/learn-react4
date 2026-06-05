@@ -1,4 +1,5 @@
 import React,{useState,useEffect} from 'react'
+import Form from './Form'
 
 function Home(){
     const [people,setPeople]=useState([])
@@ -33,6 +34,7 @@ function Home(){
             <ol>
                 {displayPeople}
             </ol>
+            <Form />
         </div>
     )
 }
