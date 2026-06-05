@@ -1,12 +1,47 @@
 {
-    "persons":[
-        {
-            "userName":"Paul",
-            "password":"1234"
-        },
-        {
-            "userName":"Cate",
-            "password":"987"
-        }
-    ]
+  "persons": [
+    {
+      "userName": "Paul",
+      "password": "1234",
+      "isAdult": false,
+      "id": "BVEySUIRx_U"
+    },
+    {
+      "userName": "Cate",
+      "password": "987",
+      "isAdult": false,
+      "id": "4hk28DpdUY8"
+    },
+    {
+      "userName": "John",
+      "password": "1234",
+      "isAdult": true,
+      "id": "ju_FHoEngEk"
+    },
+    {
+      "userName": "Daniel",
+      "password": "5775",
+      "isAdult": false,
+      "id": "uQq739RgJdc"
+    },
+    {
+      "userName": "Daniel",
+      "password": "344",
+      "isAdult": true,
+      "id": "03aNth6Lf04"
+    },
+    {
+      "userName": "Daniel",
+      "password": "455545",
+      "isAdult": false,
+      "id": "2a49IPpQcFs"
+    },
+    {
+      "userName": "Kinuthia",
+      "password": "6754",
+      "isAdult": false,
+      "id": "DL8YYgZluN0"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
